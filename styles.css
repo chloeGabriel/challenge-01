@@ -1,0 +1,135 @@
+/* General Settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: top;
+    background-color: hsl(225, 100%, 94%);
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Card contents*/
+.card {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.img-header {
+    max-width: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+.container {
+    padding: 10px;
+    background-color: white;
+    height: 450px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 10px 30px 0 rgba(31,47,86,0.2);
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.subtitle {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding: 20px 50px 20px 50px;
+}
+
+/*Order articles class*/
+.order-articles {
+    margin: auto;
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.informations {
+    text-align: left;
+    color: hsl(224, 23%, 55%);
+    margin-left: 10px;
+}
+.informations h5 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    padding: 2px;
+}
+.informations p {
+    font-size: 14px;
+    padding: 2px;
+}
+.change-link {
+    margin:auto 100px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+.change-link:hover {
+    color: slateblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/*Card Buttons class*/
+.card-buttons {
+    margin: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.confirm {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 8px 10px 0 rgba(31,47,86,0.4);
+}
+.confirm:hover {
+    background-color: slateblue;
+    transition: 0.3s;
+}
+
+.cancel {
+    margin: 20px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+}
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    transition: 0.3s;
+}
+
+
+/* Attribution class */
+.attribution {
+    text-align: center;
+    padding: 30px;
+}
